@@ -4,7 +4,7 @@ DROP TABLE animais;
 
 CREATE TABLE animais (
     id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
-    id_dono INT NOT NULL,
+    id_dono INT(11) UNSIGNED NOT NULL,
     nome VARCHAR(100) NOT NULL,
     especie VARCHAR(50)NOT NULL,
     raca VARCHAR(50)NOT NULL,
